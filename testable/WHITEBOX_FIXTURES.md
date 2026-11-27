@@ -9,6 +9,10 @@ Golden inputs for [cJSON](https://github.com/Benny-Testable/cJSON) so embedded l
 | 14 | stack-usage | `no_target_cpu_in_repo` | `cmake/testable_arm_profile.cmake` (`-mcpu=cortex-m4`) |
 | 15 | size | `no_target_cpu_in_repo` | same ARM profile file |
 
-Reference metric map: run `34c80e55` — `C_CPP_Metric_Root_Cause_34c80e55_27-11-2026_updated.xlsx`.
+Reference metric map: run `34c80e55` — `C_CPP_Metric_Root_Cause_34c80e55_27-11-2026_updated.xlsx` (copy in this folder).
+
+Canonical remote: https://github.com/Prathikshatestable/cjson-ccpp-golden
 
 `infra/terraform/` is a minimal IaC sample only (Checkov is not on the default `c_cpp` plan; present for cross-lane/manual runs).
+
+Baseline commit for tool 8 is the first git commit on `master` (`.wb_baseline_sha` / `.wb_baseline_meta.json`).
