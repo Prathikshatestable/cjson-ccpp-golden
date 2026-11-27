@@ -1,0 +1,6 @@
+{
+  "commit_sha": "2f72748b160d420e4918ea0bcf84d05a4e8c1e26",
+  "resolution_source": "repo_seed",
+  "skip_reason": null,
+  "note": "First commit baseline for diff-cover (Coverage Delta)."
+}
